@@ -33,6 +33,13 @@ for s in turtle_shapes:
     tloc += 50
 
 # TODO: move turtles across and down screen, stopping for collisions
+pixelsize =  20
+distance = 3
+for step in range(50):
+    for ht in horiz_turtles:
+        for vt in vert_turtles:
+            ht.forward(distance)
+            vt.forward(distance)
 """
 for step in range(50):
 	# do something
