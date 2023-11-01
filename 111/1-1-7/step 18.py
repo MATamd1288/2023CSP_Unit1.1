@@ -48,6 +48,8 @@ for step in range(50):
                     vt.hideturtle()
                     ht.shape(collisionshape)
                     ht.color(collisioncolor)
+                    horiz_turtles.remove(ht)
+                    vert_turtles.remove(vt)
 """
 for step in range(50):
 	# do something
